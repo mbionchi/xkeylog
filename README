@@ -1,0 +1,23 @@
+xkeylog:
+========
+
+  a really dumb keylogger for X11 that can wraps around the xinput.
+
+usage:
+------
+
+  $ xkeylog.sh <id> >> <logfile>
+
+    where <id> is the ID of the X input device of the keyboard.  This can be
+  found by running xinput and looking at the second column.
+
+requirements:
+-------------
+
+  xinput must be installed and be in the $PATH.
+
+output:
+-------
+
+    each key press / key release is printed on a new line along with the
+  keycode.  To find out your keymap, you can execute `xmodmap -pk`.
