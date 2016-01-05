@@ -1,7 +1,7 @@
 xkeylog:
 ========
 
-  a really dumb keylogger for X11 that can wraps around the xinput.
+  a really dumb keylogger for X11 that wraps around xinput.
 
 usage:
 ------
