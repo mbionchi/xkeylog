@@ -19,5 +19,5 @@ requirements:
 output:
 -------
 
-    each key press / key release is printed on a new line along with the
-  keycode.  To find out your keymap, you can execute `xmodmap -pk`.
+    each key press (+) / key release (-) is printed on a new line along with
+  the keycode.  To find out your keymap, you can execute `xmodmap -pk`.
